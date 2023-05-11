@@ -35,11 +35,24 @@ jQuery( function() {
 			jQuery('.light_name').html(light_name);
 			jQuery('.light_price').html(light_price);
 		}
+
+		function profile() {
+			var profile_name = jQuery('input[name="profile_material"]:checked').val();
+			var profile_price = jQuery('input[name="profile_material"]:checked').attr('data-matprice');
+			jQuery('.profile_name').html(profile_name);
+			jQuery('.profile_price').html(profile_price);
+		}
 		
 		light();
 		
 		jQuery('input[name="svet_material"]').change(function() {
 			light();
+		});	
+
+		profile();
+
+		jQuery('input[name="profile_material"]').change(function() {
+			profile();
 		});	
 		
 		function price() {
@@ -66,6 +79,7 @@ jQuery( function() {
 		jQuery('input[name="material"]').change(function() {
 			price();
 		});	
+		
 	
 		if (jQuery(".calc_square").length) {
 			var handle = jQuery( "#custom-handle" );
