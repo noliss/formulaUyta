@@ -45,6 +45,7 @@ jQuery( function() {
 		function price() {
 			var size =  jQuery('#amount').val();
 			var inprice = jQuery('input[name="material"]:checked').attr('data-matprice');
+			console.log("jaja")
 			
 			var indop1 = jQuery('#calc_ugol').val(); /*кол-во углов*/
 			var indop2 = jQuery('#calc_truba').val(); /*кол-во труб*/

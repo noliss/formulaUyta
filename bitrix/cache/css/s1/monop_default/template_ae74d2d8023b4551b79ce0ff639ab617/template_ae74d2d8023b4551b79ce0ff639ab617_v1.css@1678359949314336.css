@@ -8941,6 +8941,7 @@ footer .container {
 			
 			footer, footer a {color:#222}
 			.whats-link {position:relative;top: 30px;right: 10px;}
+      .whats-link2 { position: relative; top: 30px; right: 0px; }
 			.footer-mail {text-align:right;margin:20px 0;font-size:16px}
 			.footer__menu li a {border:0}
 			.footer-mail a, footer .contacts2 a {text-decoration:none;border-bottom:1px #222 solid}
@@ -9002,6 +9003,7 @@ footer .container {
 				header .contacts .phone.phone__footer {text-align:right!Important}
 				.whats-link {position:absolute;right:auto;left:-25px;top:10px;margin:0!important}
 				.whats-link svg {width:25px;height:25px}
+        .whats-link2 { left: -60px !important;}
 				header .box .in span {margin:0;top:14px;position:absolute;display:none}
 				.calcbutton {margin:-2px 0 0}
 				.calcbutton a {padding:2px 8px}
