@@ -92,7 +92,7 @@
 				
 			.newcalc_info {text-align:center;color:#fff;background:#A0AFBD;font-size:23px;padding:25px;margin:10px 0}	
 			
-			.newcalc_itog {display:flex;background:#2D9CDB;color:#fff}
+			.newcalc_itog {display:flex;background:#5087a6;color:#fff}
 			.itog_right {display:flex;align-items:center;background:#E89700;padding:0 100px}
 			.itog_right a {color:#fff;text-decoration:none;text-transform: uppercase;font-size:18px;}
 			.itog_left {width:100%}
@@ -106,8 +106,8 @@
 				
 				
 			.mainforms_title {font-size:24px;margin:15px 0;text-align:center}	
-			#theform input[type='text'] {width:100%;padding:10px;background:#fff;border:1px solid #0084c9;box-sizing:border-box;margin:15px 0}
-			#theform input[type='submit'] {width:100%;padding:10px;color:#fff;margin:15px 0;cursor:pointer;text-align:center;background:#0084c9;border:0;font-size:18px;font-weight:bold;}
+			#theform input[type='text'] {width:100%;padding:10px;background:#fff;border:1px solid #e5d8ac;box-sizing:border-box;margin:15px 0}
+			#theform input[type='submit'] {width:100%;padding:10px;color:#fff;margin:15px 0;cursor:pointer;text-align:center;background:#e5d8ac;border:0;font-size:18px;font-weight:bold;}
 				
 				
 			.bodynav, .bodynav body {height:100vh;overflow:hidden}	
